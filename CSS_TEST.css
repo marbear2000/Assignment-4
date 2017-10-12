@@ -5,15 +5,11 @@
 
 body {
   margin: 0px;
-  color: #878787;
+  color: #000000;
   font-size: 1em;
   font-family: "Helevetica Neue",  Helvetica, Arial, sans-serif;;
   line-height: 1.5;
-  background: linear-gradient(#ffa949, transparent 90%), 
-              linear-gradient(50deg, #fff, transparent),
-              #ffa949 no-repeat center;
-  
-  ;
+  background: linear-gradient(0deg, #ffa949, firebrick, transparent 90%);
 }
 
 .main-header { 
@@ -49,6 +45,7 @@ h2{
   text-decoration: underline;
   font-weight: normal;
   color: #1e5262;
+  text-align: center;
 }
 
 h3 {
@@ -69,6 +66,13 @@ h4
   color: #1e5262;
   margin-bottom: 1px;
   margin-top: 1px;
+}
+
+p{
+  text-align: center;
+  font-size: 17px;
+  font: #000000;
+  font-family: "Helevetica Neue",  Helvetica, Arial, sans-serif;
 }
 
 ul, ol{
