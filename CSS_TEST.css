@@ -1,0 +1,178 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  color: #878787;
+  font-size: 1em;
+  font-family: "Helevetica Neue",  Helvetica, Arial, sans-serif;;
+  line-height: 1.5;
+  background: linear-gradient(#ffa949, transparent 90%), 
+              linear-gradient(50deg, #fff, transparent),
+              #ffa949 no-repeat center;
+  
+  ;
+}
+
+.main-header { 
+	font-size: 36px;
+	font-family: serif;
+	color: white;
+	background-color: #ff0033;
+  background-image: url('Windmill.jpg');
+  background-size: 23%;
+	border: 200px 200px;
+	text-align: center;
+  height: 400px;
+
+
+}
+
+.title{
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+  text-transform: uppercase;
+}
+
+h1 {  
+  font-size: 5.625rem; /* 90px/16px */
+  color: white;
+  font-weight: normal;
+  text-shadow: 5px 8px 5px #222;
+}
+
+h2{
+  font-size: 53px;
+  font-family: Helvetica;
+  text-decoration: underline;
+  font-weight: normal;
+  color: #1e5262;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Helvetica;
+  text-decoration: italic;
+  font-weight: normal;
+  text-align: center;
+  color: #1e5262;
+}
+
+h4
+ {
+  font-size: 24px;
+  font-family: Helvetica;
+  text-decoration: italic;
+  font-weight: normal;
+  color: #1e5262;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+ul, ol{
+  list-style-position: inside;
+  margin: 20px 0px;
+}
+
+}
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #0000FF;
+  line-height: 50px;
+}
+
+
+.primary-content,
+.secondary-content {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  max-width: 900px;
+
+  /* include this as it will help with line out. Gradients on treehouse
+  background-image: radial-gradient(#ffa949, firebrick);
+  background-image: linear-gradient(#ffa949, firebrick);
+  background-image: radial-gradient(circle at top right, #ffa949 0%, firebrick 50%, dodgerblue 100%);
+  This is for the image on headerbackground;linear-gradient(#ffa949, transparent 90%), 
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url('../img/mountains.jpg') no-repeat center;
+  */
+}
+
+.primary-content{
+	text-align: center;
+}
+
+.t-border{
+	border-top: 2px solid lightgrey;
+}
+
+
+#main-footer{
+  padding-top: 800px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px #1e5262;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+  color: white;
+  background-color: #e9f5f8; 
+  padding: 5% 8%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #1e5262;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  max-width: 100%;
+  /* long hand
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
+  
+  border-radius: 30px;
+
+}
+
+
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+
+
+ .favourite {
+  color: black
+  background-color: rgb 250, 250, 250; 
+  padding; 1px 5px 1px 5px;
+  margin: 10px 20px 5px 20px;
+  float: left;
+  height: 50%;
+  width: 50%;
+}
+
+
+.favtoys {
+  float: right;
+  margin: 50px 300px 5px 0px;
+}
+
+
+
